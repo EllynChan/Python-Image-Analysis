@@ -8,8 +8,8 @@ from tabulate import tabulate
 import os
 
 #set directory (change to whatever your directory is)
-#dst_img = "C:\\Users\\Ellyn\\Desktop\\img analysis py\\Images"
-dst_img = "C:\\Users\\Palombo Lab\\Desktop\\img analysis\\img analysis py\\Images"
+dst_img = "C:\\Users\\Ellyn\\Desktop\\Python-Image-Analysis\\img analysis py\\Images"
+#dst_img = "C:\\Users\\Palombo Lab\\Desktop\\img analysis\\img analysis py\\Images"
 
 #listing files in images folder
 list_img = os.listdir(dst_img)
@@ -19,20 +19,16 @@ for image in sorted(list_img):
     
     [file_name, ext] = os.path.splitext(image) #splitting file name from its extension
     arr = np.array(Image.open(os.path.join(dst_img, image))) #creating arrays for all the images
-    arr_dim = arr.ndim #calculating the dimension for each array
 
-    if arr_dim == 2:
-        arr_mean = np.mean(arr)
-        print(f'[{file_name}, greyscale={arr_mean:.1f}]')
-    else:
-        arr_mean = np.mean(arr, axis=(0,1))
-        R = arr_mean[0]
-        G = arr_mean[1]
-        B = arr_mean[2]
-        newArr = np.array(Image.open(os.path.join(dst_img, image)).convert('L'))
+    arr_mean = np.mean(arr, axis=(0,1))
+    R = arr_mean[0]
+    G = arr_mean[1]
+    B = arr_mean[2]
+    newArr = np.array(Image.open(os.path.join(dst_img, image)).convert('L'))
 
-        #LUMI 0-255, higher means more intense formula: https://stackoverflow.com/questions/596216/formula-to-determine-perceived-brightness-of-rgb-color
-        #CONT 0-255, higher means greater contrast in luminance of the img's grayscale
-        print(f'[{file_name}, R={R:.1f},  G={G:.1f}, B={B:.1f}, LUMI={(0.2126*R + 0.7152*G + 0.0722*B):.1f}, CONT={np.max(newArr) - np.min(newArr)}]')
+    #LUMI 0-255, higher means more intense formula: https://stackoverflow.com/questions/596216/formula-to-determine-perceived-brightness-of-rgb-color
+    #CONT 0-255, higher means greater contrast in luminance of the img's grayscale: https://stackoverflow.com/questions/58821130/how-to-calculate-the-contrast-of-an-image
+    #source of images used for testing: https://riptutorial.com/opencv/example/23407/adjusting-brightness-and-contrast-of-an-image-in-cplusplus
+    print(f'[{file_name}, R={R:.1f},  G={G:.1f}, B={B:.1f}, LUMI={(0.2126*R + 0.7152*G + 0.0722*B):.1f}, CONT={(newArr.std()):.1f}]')
 
 #[for insta should be: R=234.1,  G=153.1, B=186.2 ]
