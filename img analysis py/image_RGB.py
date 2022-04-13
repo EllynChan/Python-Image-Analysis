@@ -9,13 +9,15 @@ from tabulate import tabulate
 import os
 import csv
 import glob
+import skimage.measure  
+from skimage import io
 
 #set directory (change to whatever your directory is)
 #dst_img = "C:\\Users\\Ellyn\\Desktop\\Python-Image-Analysis\\img analysis py\\Images"
 #dst_img = "C:\\Users\\Palombo Lab\\Desktop\\Python-Image-Analysis\\img analysis py\\Images"
 
 #set up for writing csv
-header = ['Name', 'R', 'G', 'B', 'Luminance', 'Contrast', 'Thing/Object', 'Negative/Neutral']
+header = ['Name', 'R', 'G', 'B', 'Luminance', 'Contrast', 'Entropy', 'Thing/Object', 'Negative/Neutral']
 data = []
 
 for dst_img in glob.glob('C:\\Users\\Palombo Lab\\Desktop\\Python-Image-Analysis\\img analysis py\\Images\\*', recursive = True):
@@ -48,8 +50,11 @@ for dst_img in glob.glob('C:\\Users\\Palombo Lab\\Desktop\\Python-Image-Analysis
             condition = "Neutral"
             obj = "Object"
 
+        img = io.imread(dst_img + "\\" + image)
+        entropy = skimage.measure.shannon_entropy(img)
+
         #record this row of csv data
-        data.append([file_name, f'{R:.1f}', f'{G:.1f}', f'{B:.1f}', f'{(0.2126*R + 0.7152*G + 0.0722*B):.1f}', f'{newArr.std():.1f}', condition, obj])
+        data.append([file_name, f'{R:.1f}', f'{G:.1f}', f'{B:.1f}', f'{(0.2126*R + 0.7152*G + 0.0722*B):.1f}', f'{newArr.std():.1f}', f'{entropy:.1f}', condition, obj])
 
 #set path for the csv file
 with open('C:\\Users\\Palombo Lab\\Desktop\\Python-Image-Analysis\\img analysis py\\analysisResult.csv', 'w') as f:
