@@ -34,7 +34,7 @@ ENTROPY: higher means more variance in the pixel values in a given sample. Shann
 source of images used for testing: https://riptutorial.com/opencv/example/23407/adjusting-brightness-and-contrast-of-an-image-in-cplusplus
 
 """
-for dst_img in glob.glob('C:\\Users\\Palombo Lab\\Desktop\\Python-Image-Analysis\\img analysis py\\Images\\*', recursive = True):
+for dst_img in glob.glob('Images\\*', recursive = True):
     #listing files in images folder
     list_img = os.listdir(dst_img)
 
@@ -72,8 +72,7 @@ for dst_img in glob.glob('C:\\Users\\Palombo Lab\\Desktop\\Python-Image-Analysis
         data.append([file_name, f'{R:.1f}', f'{G:.1f}', f'{B:.1f}', f'{(0.2126*R + 0.7152*G + 0.0722*B):.1f}', f'{newArr.std():.1f}', f'{entropy:.1f}', condition, obj])
 
 #set path for the csv file
-with open('C:\\Users\\Palombo Lab\\Desktop\\Python-Image-Analysis\\img analysis py\\results.csv', 'w') as f:
-#with open('C:\\Users\\Ellyn\\Desktop\\Python-Image-Analysis\\img analysis py\\analysisResult.csv', 'w') as f:
+with open('results.csv', 'w') as f:
     writer = csv.writer(f) #create the csv writer
 
     writer.writerow(header) #write the header
