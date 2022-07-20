@@ -1,96 +1,101 @@
-Name,R,G,B,Luminance,Contrast,Entropy,Negative/Neutral,Thing/Object
-Alarm Clock,45.1,45.5,47,45.6,80.5,1.8,Negative,Object
-Balloon,27.6,42.4,33.7,38.6,72.1,2.3,Negative,Object
-Hairdryer,85.4,86,87.3,86,113.5,1.9,Negative,Object
-Handbag,71.1,68.3,69,69,95.2,2.7,Negative,Object
-Hat,35.5,35.5,35.7,35.5,78,1.7,Negative,Object
-Kettle,88.6,87.9,79.7,87.4,112.3,2.5,Negative,Object
-Pitcher,78,74.2,69.4,74.7,100.3,2.4,Negative,Object
-Pot,31.8,31.9,28.2,31.6,65.5,2.1,Negative,Object
-Runningshoe,108.5,113,113.5,112.1,111.8,2.9,Negative,Object
-Shampoo,31.5,31.6,31.6,31.6,69.3,1.7,Negative,Object
-Slipper,12.4,12.6,13.6,12.6,50.2,1.3,Negative,Object
-Soap,27.9,34.1,35.2,32.9,73.2,1.4,Negative,Object
-Suitcase,78.9,79.5,80.4,79.4,108.6,2.3,Negative,Object
-Telephone,113.9,112.6,118.7,113.3,111.9,3.1,Negative,Object
-Toothbrush,19.8,18.6,18.9,18.9,64.1,0.7,Negative,Object
-Toy Truck,49,49.8,48.2,49.5,80.9,1.9,Negative,Object
-Weights,157.7,158,159.5,158.1,113,2.6,Negative,Object
-Brush,69.8,64.1,57.7,64.9,90,2.8,Neutral,Object
-Coffee Cup,54.2,54.2,54.8,54.2,94.2,1.8,Neutral,Object
-Fan,116.7,117.7,111.3,117,114.1,3,Neutral,Object
-Grater,29.3,29.5,29.5,29.5,64.6,1.4,Neutral,Object
-Shopping Bag,40.2,51.7,63.8,50.2,79.1,1.7,Neutral,Object
-Spray Bottle,49.9,51.3,49.6,50.9,92.6,1.8,Neutral,Object
-Square Clock,50.1,45.1,39.2,45.8,67.5,2.5,Neutral,Object
-Stapler,47.5,47.9,50.1,48,89.6,2,Neutral,Object
-Tape,36.7,38.2,39.1,37.9,77.5,1.4,Neutral,Object
-Tennis Ball,28.6,28.1,10.3,27,65.5,1.4,Neutral,Object
-USB Stick,30.2,31.9,37.3,32,75.4,1.4,Neutral,Object
-Water Bottle,24.4,9.5,9.6,12.7,44,1.5,Neutral,Object
-Wine Bottle,7.2,6.8,5.6,6.8,31.9,0.8,Neutral,Object
-Alligator,55,54.2,53.3,54.3,98.2,1.6,Negative,Thing
-Bear,89.3,83.4,78.2,84.3,105.2,2.8,Negative,Thing
-Bloody Axe,106.4,103.8,102.9,104.3,121.8,1.5,Negative,Thing
-Bloody Baseball Bat,123.8,122.5,122.3,122.7,125.3,1.4,Negative,Thing
-Bloody Chair,27.4,22.9,21.4,23.8,38,3.1,Negative,Thing
-Bloody Snowman,8.5,7.7,8,7.9,21.5,1.9,Negative,Thing
-Bloody Sword,1,0.8,0.9,0.8,6.5,0.4,Negative,Thing
-Broken Skull,26.2,21,15.6,21.7,53,2,Negative,Thing
-Butcher,177,173.4,172,174.1,104.7,2.8,Negative,Thing
-Cauldron,112.2,107.1,103.9,107.9,107.8,3.2,Negative,Thing
-Clown Mask,55.2,53.6,50.9,53.7,88.4,2.6,Negative,Thing
-Cockroach,10.1,4.2,3.4,5.4,20.8,1.3,Negative,Thing
-Creepy Girl,107,106.2,107.1,106.4,117,2.4,Negative,Thing
-Doll Head,68.1,59.7,50.7,60.8,92.3,2.7,Negative,Thing
-Goblin Trophy,27.4,23.6,23.5,24.4,50.4,2.6,Negative,Thing
-Guillotine,167.9,158.1,156.1,160,109.3,2.7,Negative,Thing
-Heart,13.4,0.1,0,2.9,14.6,0.7,Negative,Thing
-Mummy,234,232,227.3,232.1,58.5,2,Negative,Thing
-Scorpion,112.2,111.9,111.5,112,120.8,2.1,Negative,Thing
-Severed Arm,11.3,8.3,7,8.8,30.1,1.2,Negative,Thing
-Skull,141,128.2,127.7,130.9,109.5,3.7,Negative,Thing
-Snake,41.6,41.2,40.3,41.2,91.3,0.9,Negative,Thing
-Spider,131.4,112,98.1,115.1,106.1,3.6,Negative,Thing
-Wolf,172.8,167.9,160.8,168.4,100.5,3.1,Negative,Thing
-Worm Monster,9.5,6.5,6.2,7.1,27.4,1.2,Negative,Thing
-Zombie,64.5,64,62.9,64,103.1,2,Negative,Thing
-Backpack,52,45.6,52.5,47.4,79.8,3.4,Neutral,Thing
-Broom,237.5,235.4,232.5,235.6,60.5,1.5,Neutral,Thing
-Cargo,133,122.2,110.2,123.7,97.4,4.4,Neutral,Thing
-Deer,121.8,118.3,116.5,118.9,119.5,2.2,Neutral,Thing
-Duck,227.4,224.8,221.5,225.1,62.4,2.4,Neutral,Thing
-Electric Kettle,154.3,130.1,128.6,135.2,106.1,4.1,Neutral,Thing
-Girl,123.1,115.7,112.7,117.1,120.2,2,Neutral,Thing
-Globe,186.6,176.8,166.9,178.2,92,3.7,Neutral,Thing
-Grandfather Clock,63.5,58.2,55,59.1,99.4,2.3,Neutral,Thing
-Lamp,62.9,62.5,61.4,62.5,93.4,2.8,Neutral,Thing
-Mailbox,173.6,183.3,194.4,182.1,102.5,2.7,Neutral,Thing
-Rabbit,75.1,73.3,71.7,73.6,104.4,2.4,Neutral,Thing
-Binoculars,10.7,10.3,11.3,10.4,22.3,2.3,n/a,n/a
-Bonsai,114.9,114.8,107.5,114.3,111.1,3.2,n/a,n/a
-Books,33.9,23.7,14.7,25.2,28.7,4.2,n/a,n/a
-Camera,33.5,34.2,33.7,34,54,3.9,n/a,n/a
-Chicken,22.3,15.7,10.8,16.8,34.6,2.3,n/a,n/a
-Compass,31.8,27.8,23.3,28.3,50,2.8,n/a,n/a
-Desk Lamp,7.5,7.7,7.7,7.7,23.8,1.7,n/a,n/a
-Fish,18.5,14.2,8.1,14.7,30.4,2.2,n/a,n/a
-Flashlight,9.6,10,11.6,10,24.1,2.2,n/a,n/a
-Glasses,10.7,10.5,10.6,10.6,28.1,1.6,n/a,n/a
-Headphones,6.5,5.9,5.8,6,12.5,2,n/a,n/a
-Helmet,22,21.4,20.8,21.5,43.9,2.7,n/a,n/a
-Jar,29.1,28.4,27.9,28.5,63.8,2,n/a,n/a
-Lizard,12.4,11.3,8.1,11.3,31.2,1.5,n/a,n/a
-Old Man,18,18.8,19.7,18.7,44.5,1.9,n/a,n/a
-Ping Pong,25.9,13.4,10.5,15.8,37.8,2,n/a,n/a
-Plant,31.7,41.3,19.8,37.7,55.5,4.2,n/a,n/a
-Planter,77.3,70.9,64.6,71.8,80.2,4.5,n/a,n/a
-Ribbon Ball,51.4,34.7,25.1,37.5,48,4,n/a,n/a
-Scale,11.4,10.9,9.2,10.8,32.2,1.7,n/a,n/a
-Sitting Man,20,20.4,19.2,20.2,57.7,1.7,n/a,n/a
-Skateboard,6.7,6.4,5.9,6.4,23.4,1,n/a,n/a
-Snail,11,8.9,6.8,9.2,18.4,2.4,n/a,n/a
-Tire,21.5,23.9,26.7,23.6,31.4,3.6,n/a,n/a
-Traffic Cone,13.9,10.4,7,10.9,32.3,1.4,n/a,n/a
-Turtle,24.9,23.2,21.8,23.5,49.4,2.1,n/a,n/a
-Woman,18.5,15.4,14.1,16,45.2,1.8,n/a,n/a
+Name,R,G,B,Luminance,Contrast,Entropy,Negative/Neutral,Thing/Object
+Alligator,55.0,54.2,53.3,54.3,98.2,1.6,Negative,Thing
+Bear,89.3,83.4,78.2,84.3,105.2,2.8,Negative,Thing
+Bloody Axe,106.4,103.8,102.9,104.3,121.8,1.5,Negative,Thing
+Bloody Baseball Bat,123.8,122.5,122.3,122.7,125.3,1.4,Negative,Thing
+Bloody Chair,27.4,22.9,21.4,23.8,38.0,3.1,Negative,Thing
+Bloody Snowman,8.5,7.7,8.0,7.9,21.5,1.9,Negative,Thing
+Bloody Sword,1.0,0.8,0.9,0.8,6.5,0.4,Negative,Thing
+Broken Skull,26.2,21.0,15.6,21.7,53.0,2.0,Negative,Thing
+Butcher,177.0,173.4,172.0,174.1,104.7,2.8,Negative,Thing
+Cauldron,112.2,107.1,103.9,107.9,107.8,3.2,Negative,Thing
+Clown Mask,55.2,53.6,50.9,53.7,88.4,2.6,Negative,Thing
+Cockroach,10.1,4.2,3.4,5.4,20.8,1.3,Negative,Thing
+Creepy Girl,107.0,106.2,107.1,106.4,117.0,2.4,Negative,Thing
+Doll Head,68.1,59.7,50.7,60.8,92.3,2.7,Negative,Thing
+Goblin Trophy,27.4,23.6,23.5,24.4,50.4,2.6,Negative,Thing
+Guillotine,167.9,158.1,156.1,160.0,109.3,2.7,Negative,Thing
+Heart,13.4,0.1,0.0,2.9,14.6,0.7,Negative,Thing
+Lizard,12.4,11.3,8.1,11.3,31.2,1.5,Negative,Thing
+Mummy,234.0,232.0,227.3,232.1,58.5,2.0,Negative,Thing
+Scorpion,112.2,111.9,111.5,112.0,120.8,2.1,Negative,Thing
+Severed Arm,11.3,8.3,7.0,8.8,30.1,1.2,Negative,Thing
+Skull,141.0,128.2,127.7,130.9,109.5,3.7,Negative,Thing
+Snake,41.6,41.2,40.3,41.2,91.3,0.9,Negative,Thing
+Spider,131.4,112.0,98.1,115.1,106.1,3.6,Negative,Thing
+Wolf,172.8,167.9,160.8,168.4,100.5,3.1,Negative,Thing
+Worm Monster,9.5,6.5,6.2,7.1,27.4,1.2,Negative,Thing
+Zombie,64.5,64.0,62.9,64.0,103.1,2.0,Negative,Thing
+Backpack,52.0,45.6,52.5,47.4,79.8,3.4,Neutral,Thing
+Binoculars,10.7,10.3,11.3,10.4,22.3,2.3,Neutral,Thing
+Bonsai,114.9,114.8,107.5,114.3,111.1,3.2,Neutral,Thing
+Broom,237.5,235.4,232.5,235.6,60.5,1.5,Neutral,Thing
+Cargo,133.0,122.2,110.2,123.7,97.4,4.4,Neutral,Thing
+Chicken,22.3,15.7,10.8,16.8,34.6,2.3,Neutral,Thing
+Deer,121.8,118.3,116.5,118.9,119.5,2.2,Neutral,Thing
+Desk Lamp,7.5,7.7,7.7,7.7,23.8,1.7,Neutral,Thing
+Duck,227.4,224.8,221.5,225.1,62.4,2.4,Neutral,Thing
+Electric Kettle,154.3,130.1,128.6,135.2,106.1,4.1,Neutral,Thing
+Fish,18.5,14.2,8.1,14.7,30.4,2.2,Neutral,Thing
+Girl,123.1,115.7,112.7,117.1,120.2,2.0,Neutral,Thing
+Globe,186.6,176.8,166.9,178.2,92.0,3.7,Neutral,Thing
+Grandfather Clock,63.5,58.2,55.0,59.1,99.4,2.3,Neutral,Thing
+Jar,29.1,28.4,27.9,28.5,63.8,2.0,Neutral,Thing
+Lamp,62.9,62.5,61.4,62.5,93.4,2.8,Neutral,Thing
+Mailbox,173.6,183.3,194.4,182.1,102.5,2.7,Neutral,Thing
+Old Man,18.0,18.8,19.7,18.7,44.5,1.9,Neutral,Thing
+Rabbit,75.1,73.3,71.7,73.6,104.4,2.4,Neutral,Thing
+Scale,11.4,10.9,9.2,10.8,32.2,1.7,Neutral,Thing
+Sitting Man,20.0,20.4,19.2,20.2,57.7,1.7,Neutral,Thing
+Snail,11.0,8.9,6.8,9.2,18.4,2.4,Neutral,Thing
+Traffic Cone,13.9,10.4,7.0,10.9,32.3,1.4,Neutral,Thing
+Turtle,24.9,23.2,21.8,23.5,49.4,2.1,Neutral,Thing
+Woman,18.5,15.4,14.1,16.0,45.2,1.8,Neutral,Thing
+Alarm Clock,45.1,45.5,47.0,45.6,80.5,1.8,Negative,Object
+Balloon,27.6,42.4,33.7,38.6,72.1,2.3,Negative,Object
+Compass,31.8,27.8,23.3,28.3,50.0,2.8,Negative,Object
+Flashlight,9.6,10.0,11.6,10.0,24.1,2.2,Negative,Object
+Hairdryer,85.4,86.0,87.3,86.0,113.5,1.9,Negative,Object
+Handbag,71.1,68.3,69.0,69.0,95.2,2.7,Negative,Object
+Hat,35.5,35.5,35.7,35.5,78.0,1.7,Negative,Object
+Kettle,88.6,87.9,79.7,87.4,112.3,2.5,Negative,Object
+Keychain,13.8,11.9,11.1,12.2,39.7,1.3,Negative,Object
+Microphone,4.8,4.7,5.7,4.8,17.1,1.1,Negative,Object
+Ping Pong,25.9,13.4,10.5,15.8,37.8,2.0,Negative,Object
+Pitcher,78.0,74.2,69.4,74.7,100.3,2.4,Negative,Object
+Pot,31.8,31.9,28.2,31.6,65.5,2.1,Negative,Object
+Runningshoe,108.5,113.0,113.5,112.1,111.8,2.9,Negative,Object
+Screwdriver,6.6,6.9,6.9,6.8,26.1,1.1,Negative,Object
+Shampoo,31.5,31.6,31.6,31.6,69.3,1.7,Negative,Object
+Slipper,12.4,12.6,13.6,12.6,50.2,1.3,Negative,Object
+Soap,27.9,34.1,35.2,32.9,73.2,1.4,Negative,Object
+Suitcase,78.9,79.5,80.4,79.4,108.6,2.3,Negative,Object
+Telephone,113.9,112.6,118.7,113.3,111.9,3.1,Negative,Object
+Tire,21.5,23.9,26.7,23.6,31.4,3.6,Negative,Object
+Toothbrush,19.8,18.6,18.9,18.9,64.1,0.7,Negative,Object
+Toy Truck,49.0,49.8,48.2,49.5,80.9,1.9,Negative,Object
+Weights,157.7,158.0,159.5,158.1,113.0,2.6,Negative,Object
+Books,33.9,23.7,14.7,25.2,28.7,4.2,Neutral,Object
+Briefcase,3.7,3.7,3.5,3.7,11.9,1.9,Neutral,Object
+Brush,69.8,64.1,57.7,64.9,90.0,2.8,Neutral,Object
+Coffee Cup,54.2,54.2,54.8,54.2,94.2,1.8,Neutral,Object
+Fan,116.7,117.7,111.3,117.0,114.1,3.0,Neutral,Object
+Glasses,10.7,10.5,10.6,10.6,28.1,1.6,Neutral,Object
+Grater,29.3,29.5,29.5,29.5,64.6,1.4,Neutral,Object
+Headphones,6.5,5.9,5.8,6.0,12.5,2.0,Neutral,Object
+Helmet,22.0,21.4,20.8,21.5,43.9,2.7,Neutral,Object
+Planter,77.3,70.9,64.6,71.8,80.2,4.5,Neutral,Object
+Ribbon Ball,51.4,34.7,25.1,37.5,48.0,4.0,Neutral,Object
+Shopping Bag,40.2,51.7,63.8,50.2,79.1,1.7,Neutral,Object
+Skateboard,6.7,6.4,5.9,6.4,23.4,1.0,Neutral,Object
+Spoon,4.4,4.5,4.6,4.5,21.9,0.8,Neutral,Object
+Spray Bottle,49.9,51.3,49.6,50.9,92.6,1.8,Neutral,Object
+Square Clock,50.1,45.1,39.2,45.8,67.5,2.5,Neutral,Object
+Stapler,47.5,47.9,50.1,48.0,89.6,2.0,Neutral,Object
+Sunglasses,8.5,8.5,8.4,8.5,25.7,1.2,Neutral,Object
+Tape,36.7,38.2,39.1,37.9,77.5,1.4,Neutral,Object
+Tennis Ball,28.6,28.1,10.3,27.0,65.5,1.4,Neutral,Object
+USB Stick,30.2,31.9,37.3,32.0,75.4,1.4,Neutral,Object
+Water Bottle,24.4,9.5,9.6,12.7,44.0,1.5,Neutral,Object
+Whistle,6.1,5.5,6.2,5.7,18.2,1.4,Neutral,Object
+Wine Bottle,7.2,6.8,5.6,6.8,31.9,0.8,Neutral,Object
